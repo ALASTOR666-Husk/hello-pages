@@ -47,3 +47,6 @@ footer { text-align: center; padding: 2rem; background: var(--dark); color: whit
 /* JS Анимация при скролле */
 .animate-on-scroll { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
 .animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
+
+/* Обновление дизайна для 3-го деплоя */
+footer { border-top: 3px solid var(--purple); }
