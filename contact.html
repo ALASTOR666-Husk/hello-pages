@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты | CI/CD Проект</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">DevOps Site</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="contact.html" class="active">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero animate-on-scroll">
+            <h1>Свяжитесь с нами</h1>
+            <p>Мы всегда открыты для новых предложений.</p>
+        </section>
+        <section class="content animate-on-scroll">
+            <form onsubmit="event.preventDefault(); alert('Сообщение отправлено! (Демо)');">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш Email" required>
+                <textarea rows="5" placeholder="Ваше сообщение" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Мой Проект. Все права защищены.</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>
